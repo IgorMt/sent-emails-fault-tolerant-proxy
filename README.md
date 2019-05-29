@@ -73,6 +73,7 @@ Use 'npm run test' command
 - implement the QUEUE layer to unbind the client request from the email sending process (will be repeated if something has gone wrong). Use MQ services like active MQ like RubbitMQ for servers or SQS(if planning for AWS). 
 - centralise configuration for application in the DB specifically for each env: dev, test, integration, stages, prod.
 - add the function of quick module addition (modules with different email services)
+- create docker image or use AWS Serverless Lambda to simplify migrations 
 - run tests for all services
  
 ## Copyright
