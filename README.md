@@ -13,15 +13,21 @@ SendGrid and Mailgun. If one service in down, the application sends emails from 
 Application Installation
  
 Copy application folder locally from GitHub.
+
 run npm install
+
 run npm start or npm run start-server(if need edit code with nodemon) 
  
 Use REST client e.g. Postman.
  
 Local link to the email service: http://127.0.0.1:3000/email-sender/email
+
 Add Header: Content-Type: application/json
+
 Send method: POST
+
 Use body like:
+
 {
 "to": "test@gmail.com",
 "cc":"test@gmail.com",
