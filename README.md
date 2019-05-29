@@ -26,12 +26,12 @@ Add Header: Content-Type: application/json
 
 Send method: POST
 
-Use body like:
+Use body like(to, cc and bcc must be different!):
 
 {
 "to": "test@gmail.com",
-"cc":"test@gmail.com",
-"bcc":"test@eml.cc",
+"cc":"test_1@gmail.com",
+"bcc":"test_2@eml.cc",
 "from": "test@gmail.com",
 "subject": "Test Subject",
 "text": "Test Body."
