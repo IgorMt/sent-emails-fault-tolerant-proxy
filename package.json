@@ -2,7 +2,7 @@
   "name": "sends-emails-fault-tolerance-proxy",
   "version": "1.0.0",
   "description": "The emails sending fault-tolerant proxy.",
-  "repository": "https://github.com/",
+  "repository": "https://github.com/IgorMt/sent-emails-fault-tolerant-proxy",
   "author": "imaltsev",
   "license": "ISC",
   "scripts": {
