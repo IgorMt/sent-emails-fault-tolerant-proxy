@@ -1,4 +1,4 @@
-Sent emails fault-tolerant proxy
+## Sent emails fault-tolerant proxy
  
 This application provides an abstraction between two email service providers – 
 SendGrid and Mailgun. If one service in down, the application sends emails from the other one. 
