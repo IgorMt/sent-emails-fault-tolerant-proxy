@@ -8,6 +8,14 @@ SendGrid and Mailgun. If one service in down, the application sends emails from 
 - NodeJS version: v10.14.1
 - npm version: 6.4.1
  
+## Implementation details
+
+Application consists of 3 modules: controllers, handlers and services.
+
+- controllers on this moment holds one EmailSendController typescript class holds   public sendEmail(data: EmailData){...} where EmailData is JSON request body model. With http POST request this method get data, then validate it and call the send email handler.
+- handlers holds two mail typescript files emails-simple-handler.ts and send-emails-task-queue.ts. Currently using just emails-simple-handler.ts which implements a simple logic to send, at first trying to send via SendGrid, if error - sendin via mailgun. send-emails-task-queue.ts is for further QUEUE implementation, see TODO chapter below.
+- services holds functionality to send emails via SendGrid and Mailgun. 
+
 ## Getting started
  
 Application Installation
