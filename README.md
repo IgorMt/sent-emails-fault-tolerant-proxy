@@ -20,6 +20,7 @@ Use REST client e.g. Postman.
  
 Local link to the email service: http://127.0.0.1:3000/email-sender/email
 Add Header: Content-Type: application/json
+Send method: POST
 Use body like:
 {
 "to": "test@gmail.com",
