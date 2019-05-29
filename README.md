@@ -75,6 +75,7 @@ Use 'npm run test' command
 - add the function of quick module addition (modules with different email services)
 - create docker image or use AWS Serverless Lambda to simplify migrations 
 - run tests for all services
+- secure access keys
  
 ## Copyright
  
