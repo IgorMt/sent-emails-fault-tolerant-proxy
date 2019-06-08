@@ -3,7 +3,7 @@ import { EmailData } from '../models/email-model';
 import { SendEmailBase } from './send-email-base';
 
 // TODO: all parameters must be centralized in separate config service or db.
-SendGrid.setApiKey("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");
+SendGrid.setApiKey("abcdef");
 
 // Here needs to convert value to the actual MailService using type, specifically to ts.
 interface Foo {
