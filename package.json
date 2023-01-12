@@ -25,7 +25,7 @@
     "@types/mailgun-js": "^0.16.3",
     "better-queue": "^3.8.10",
     "bunyan": "^1.8.12",
-    "class-validator": "^0.9.1",
+    "class-validator": "^0.14.0",
     "mailgun-js": "^0.22.0",
     "typescript-ioc": "^1.2.5",
     "typescript-rest": "^2.0.0",
